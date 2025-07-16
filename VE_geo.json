@@ -1,29 +1,44 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { "type": "Feature", "properties": { "codigo": "TRU", "estado": "Trujillo" }, "geometry": { "type": "Point", "coordinates": [ -70.444167, 9.381111 ] } },
-    { "type": "Feature", "properties": { "codigo": "MER", "estado": "Mérida" }, "geometry": { "type": "Point", "coordinates": [ -71.145278, 8.598333 ] } },
-    { "type": "Feature", "properties": { "codigo": "MIR", "estado": "Miranda" }, "geometry": { "type": "Point", "coordinates": [ -66.5, 10.383333 ] } },
-    { "type": "Feature", "properties": { "codigo": "MON", "estado": "Monagas" }, "geometry": { "type": "Point", "coordinates": [ -63.183333, 9.75 ] } },
-    { "type": "Feature", "properties": { "codigo": "SUC", "estado": "Sucre" }, "geometry": { "type": "Point", "coordinates": [ -63.25, 10.45 ] } },
-    { "type": "Feature", "properties": { "codigo": "CAR", "estado": "Carabobo" }, "geometry": { "type": "Point", "coordinates": [ -67.999718, 10.156421 ] } },
-    { "type": "Feature", "properties": { "codigo": "GUA", "estado": "Guárico" }, "geometry": { "type": "Point", "coordinates": [ -66.027222, 9.906389 ] } },
-    { "type": "Feature", "properties": { "codigo": "ANZ", "estado": "Anzoategui" }, "geometry": { "type": "Point", "coordinates": [ -64.683333, 10.133333 ] } },
-    { "type": "Feature", "properties": { "codigo": "DTC", "estado": "Distrito Capital" }, "geometry": { "type": "Point", "coordinates": [ -66.916664, 10.5 ] } },
-    { "type": "Feature", "properties": { "codigo": "APU", "estado": "Apure" }, "geometry": { "type": "Point", "coordinates": [ -67.465278, 7.783333 ] } },
-    { "type": "Feature", "properties": { "codigo": "LAR", "estado": "Lara" }, "geometry": { "type": "Point", "coordinates": [ -69.316667, 10.066667 ] } },
-    { "type": "Feature", "properties": { "codigo": "TCH", "estado": "Táchira" }, "geometry": { "type": "Point", "coordinates": [ -72.2, 7.766667 ] } },
-    { "type": "Feature", "properties": { "codigo": "FAL", "estado": "Falcón" }, "geometry": { "type": "Point", "coordinates": [ -69.673056, 11.408333 ] } },
-    { "type": "Feature", "properties": { "codigo": "YAR", "estado": "Yaracuy" }, "geometry": { "type": "Point", "coordinates": [ -68.416667, 10.333333 ] } },
-    { "type": "Feature", "properties": { "codigo": "ZUL", "estado": "Zulia" }, "geometry": { "type": "Point", "coordinates": [ -71.6, 10.666667 ] } },
-    { "type": "Feature", "properties": { "codigo": "ARA", "estado": "Aragua" }, "geometry": { "type": "Point", "coordinates": [ -67.5, 10.233333 ] } },
-    { "type": "Feature", "properties": { "codigo": "BOL", "estado": "Bolívar" }, "geometry": { "type": "Point", "coordinates": [ -62.716667, 8.283333 ] } },
-    { "type": "Feature", "properties": { "codigo": "COJ", "estado": "Cojedes" }, "geometry": { "type": "Point", "coordinates": [ -68.582778, 9.624167 ] } },
-    { "type": "Feature", "properties": { "codigo": "DEL", "estado": "Delta Amacuro" }, "geometry": { "type": "Point", "coordinates": [ -62.056111, 9.052222 ] } },
-    { "type": "Feature", "properties": { "codigo": "POR", "estado": "Portuguesa" }, "geometry": { "type": "Point", "coordinates": [ -69.75, 9.066667 ] } },
-    { "type": "Feature", "properties": { "codigo": "NUE", "estado": "Nueva Esparta" }, "geometry": { "type": "Point", "coordinates": [ -63.966667, 10.95 ] } },
-    { "type": "Feature", "properties": { "codigo": "AMA", "estado": "Amazonas" }, "geometry": { "type": "Point", "coordinates": [ -67.466667, 3.833333 ] } },
-    { "type": "Feature", "properties": { "codigo": "BAR", "estado": "Barinas" }, "geometry": { "type": "Point", "coordinates": [ -70.216667, 8.633333 ] } },
-    { "type": "Feature", "properties": { "codigo": "VAR", "estado": "La Guaira" }, "geometry": { "type": "Point", "coordinates": [ -66.933333, 10.6 ] } }
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo": "CAR",
+        "estado": "Carabobo",
+        "acronimo": "VE",
+        "pais": "Venezuela"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-68.5849, 10.5245],
+            [-68.5895, 10.5712],
+            [-68.5696, 10.5854],
+            [-68.5241, 10.5859],
+            [-68.4801, 10.5803],
+            [-68.4450, 10.5793],
+            [-68.4202, 10.5604],
+            [-68.3901, 10.5391],
+            [-68.3512, 10.5114],
+            [-68.3213, 10.4964],
+            [-68.2824, 10.4658],
+            [-68.2813, 10.4043],
+            [-68.3134, 10.3824],
+            [-68.3447, 10.3835],
+            [-68.3763, 10.3925],
+            [-68.4032, 10.3991],
+            [-68.4223, 10.3821],
+            [-68.4500, 10.3872],
+            [-68.4863, 10.4017],
+            [-68.5170, 10.4379],
+            [-68.5432, 10.4986],
+            [-68.5564, 10.5471],
+            [-68.5849, 10.5245]
+          ]
+        ]
+      }
+    }
   ]
 }
